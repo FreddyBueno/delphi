@@ -1,0 +1,307 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{875553DD-166F-4014-B534-7CAFFD932C5F}</ProjectGuid>
+        <MainSource>Inventarios.dpr</MainSource>
+        <Base>True</Base>
+        <Config Condition="'$(Config)'==''">Debug</Config>
+        <TargetedPlatforms>1</TargetedPlatforms>
+        <AppType>Application</AppType>
+        <FrameworkType>VCL</FrameworkType>
+        <ProjectVersion>14.6</ProjectVersion>
+        <Platform Condition="'$(Platform)'==''">Win32</Platform>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Base)'=='true') or '$(Base_Win32)'!=''">
+        <Base_Win32>true</Base_Win32>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win64' and '$(Base)'=='true') or '$(Base_Win64)'!=''">
+        <Base_Win64>true</Base_Win64>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+        <Cfg_1>true</Cfg_1>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+        <Cfg_2>true</Cfg_2>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_2)'=='true') or '$(Cfg_2_Win32)'!=''">
+        <Cfg_2_Win32>true</Cfg_2_Win32>
+        <CfgParent>Cfg_2</CfgParent>
+        <Cfg_2>true</Cfg_2>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base)'!=''">
+        <VCL_Custom_Styles>&quot;Amakrits|VCLSTYLE|$(PUBLIC)\Documents\RAD Studio\11.0\Styles\Amakrits.vsf&quot;;&quot;Amethyst Kamri|VCLSTYLE|$(PUBLIC)\Documents\RAD Studio\11.0\Styles\AmethystKamri.vsf&quot;;&quot;Aqua Graphite|VCLSTYLE|$(PUBLIC)\Documents\RAD Studio\11.0\Styles\AquaGraphite.vsf&quot;;&quot;Aqua Light Slate|VCLSTYLE|$(PUBLIC)\Documents\RAD Studio\11.0\Styles\AquaLightSlate.vsf&quot;;&quot;Auric|VCLSTYLE|$(PUBLIC)\Documents\RAD Studio\11.0\Styles\Auric.vsf&quot;;&quot;Carbon|VCLSTYLE|$(PUBLIC)\Documents\RAD Studio\11.0\Styles\Carbon.vsf&quot;;&quot;Charcoal Dark Slate|VCLSTYLE|$(PUBLIC)\Documents\RAD Studio\11.0\Styles\CharcoalDarkSlate.vsf&quot;;&quot;Cobalt XEMedia|VCLSTYLE|$(PUBLIC)\Documents\RAD Studio\11.0\Styles\CobaltXEMedia.vsf&quot;;&quot;Cyan Dusk|VCLSTYLE|$(PUBLIC)\Documents\RAD Studio\11.0\Styles\CyanDusk.vsf&quot;;&quot;Cyan Night|VCLSTYLE|$(PUBLIC)\Documents\RAD Studio\11.0\Styles\CyanNight.vsf&quot;;&quot;Emerald Light Slate|VCLSTYLE|$(PUBLIC)\Documents\RAD Studio\11.0\Styles\EmeraldLightSlate.vsf&quot;;&quot;Golden Graphite|VCLSTYLE|$(PUBLIC)\Documents\RAD Studio\11.0\Styles\GoldenGraphite.vsf&quot;;&quot;Iceberg Classico|VCLSTYLE|$(PUBLIC)\Documents\RAD Studio\11.0\Styles\IcebergClassico.vsf&quot;;&quot;Lavender Classico|VCLSTYLE|$(PUBLIC)\Documents\RAD Studio\11.0\Styles\LavenderClassico.vsf&quot;;&quot;Light|VCLSTYLE|$(PUBLIC)\Documents\RAD Studio\11.0\Styles\Light.vsf&quot;;&quot;Luna|VCLSTYLE|$(PUBLIC)\Documents\RAD Studio\11.0\Styles\Luna.vsf&quot;;&quot;Metropolis UI Black|VCLSTYLE|$(PUBLIC)\Documents\RAD Studio\11.0\Styles\MetropolisUIBlack.vsf&quot;;&quot;Metropolis UI Blue|VCLSTYLE|$(PUBLIC)\Documents\RAD Studio\11.0\Styles\MetropolisUIBlue.vsf&quot;;&quot;Metropolis UI Dark|VCLSTYLE|$(PUBLIC)\Documents\RAD Studio\11.0\Styles\MetropolisUIDark.vsf&quot;;&quot;Metropolis UI Green|VCLSTYLE|$(PUBLIC)\Documents\RAD Studio\11.0\Styles\MetropolisUIGreen.vsf&quot;;&quot;Obsidian|VCLSTYLE|$(PUBLIC)\Documents\RAD Studio\11.0\Styles\Obsidian.vsf&quot;;&quot;Ruby Graphite|VCLSTYLE|$(PUBLIC)\Documents\RAD Studio\11.0\Styles\RubyGraphite.vsf&quot;;&quot;Sapphire Kamri|VCLSTYLE|$(PUBLIC)\Documents\RAD Studio\11.0\Styles\SapphireKamri.vsf&quot;;&quot;Silver|VCLSTYLE|$(PUBLIC)\Documents\RAD Studio\11.0\Styles\Silver.vsf&quot;;&quot;Slate Classico|VCLSTYLE|$(PUBLIC)\Documents\RAD Studio\11.0\Styles\SlateClassico.vsf&quot;;&quot;Smokey Quartz Kamri|VCLSTYLE|$(PUBLIC)\Documents\RAD Studio\11.0\Styles\SmokeyQuartzKamri.vsf&quot;;&quot;Turquoise Gray|VCLSTYLE|$(PUBLIC)\Documents\RAD Studio\11.0\Styles\TurquoiseGray.vsf&quot;</VCL_Custom_Styles>
+        <DCC_N>false</DCC_N>
+        <DCC_K>false</DCC_K>
+        <DCC_E>false</DCC_E>
+        <DCC_S>false</DCC_S>
+        <DCC_F>false</DCC_F>
+        <DCC_ImageBase>00400000</DCC_ImageBase>
+        <DCC_Namespace>Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;System;Xml;Data;Datasnap;Web;Soap;Winapi;Data.Win;VclTee;System.Win;$(DCC_Namespace)</DCC_Namespace>
+        <VerInfo_Locale>9226</VerInfo_Locale>
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=;CFBundleName=;CFBundleDisplayName=;UIDeviceFamily=;CFBundleIdentifier=;CFBundleVersion=;CFBundlePackageType=;CFBundleSignature=;CFBundleAllowMixedLocalizations=;UISupportedInterfaceOrientations=;CFBundleExecutable=;CFBundleResourceSpecification=;LSRequiresIPhoneOS=;CFBundleInfoDictionaryVersion=;CFBundleDevelopmentRegion=</VerInfo_Keys>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base_Win32)'!=''">
+        <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <Icon_MainIcon>Inventarios_Icon1.ico</Icon_MainIcon>
+        <DCC_Namespace>Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base_Win64)'!=''">
+        <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+        <Icon_MainIcon>Inventarios_Icon1.ico</Icon_MainIcon>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1)'!=''">
+        <DCC_DebugInformation>false</DCC_DebugInformation>
+        <DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+        <DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+        <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2)'!=''">
+        <DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+        <DCC_GenerateStackFrames>true</DCC_GenerateStackFrames>
+        <DCC_Optimize>false</DCC_Optimize>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
+        <Icon_MainIcon>Inventarios_Icon2.ico</Icon_MainIcon>
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <DCC_ExeOutput>../..</DCC_ExeOutput>
+    </PropertyGroup>
+    <ItemGroup>
+        <DelphiCompile Include="$(MainSource)">
+            <MainSource>MainSource</MainSource>
+        </DelphiCompile>
+        <DCCReference Include="ParamInv.pas">
+            <Form>ParametrosInv</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Inventarios\fContabilidad6.pas">
+            <Form>Form6</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Inventarios\FImpriTransacc.pas">
+            <Form>FormImpInventa</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Inventarios\FFacturacion1.pas">
+            <Form>Transacciones</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Inventarios\fKardex.pas">
+            <Form>Kardex</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Inventarios\frmGrupos.pas">
+            <Form>Grupos</Form>
+        </DCCReference>
+        <DCCReference Include="..\Admisiones\frmservicios.pas">
+            <Form>Servicios</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Inventarios\RecalculaSaldo.pas">
+            <Form>RegeneraSaldos</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Comunes\Uexcel.pas"/>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Comunes\about.pas">
+            <Form>AboutBox</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Comunes\CapturaBasicaSelect.pas">
+            <Form>CapturaBasicaS</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Comunes\CHILDWIN.PAS">
+            <Form>MDIChild</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Comunes\ImportaPlanos.pas">
+            <Form>ImportPlano</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Comunes\Reporteador.pas">
+            <Form>GenReport</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Comunes\UDataModule1.pas">
+            <Form>DataModule1</Form>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="MAIN.PAS">
+            <Form>MainForm</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Inventarios\frmAnulacion.pas">
+            <Form>FAnula</Form>
+        </DCCReference>
+        <DCCReference Include="ActLote.pas">
+            <Form>ActualizacionInvent</Form>
+        </DCCReference>
+        <DCCReference Include="..\Facturacion\FAsignaGrupo.pas">
+            <Form>FrmAsignaGrupo</Form>
+        </DCCReference>
+        <DCCReference Include="..\Facturacion\FProdxArea.pas">
+            <Form>FrmProdxArea</Form>
+        </DCCReference>
+        <DCCReference Include="..\Facturacion\FCrearConvenio.pas">
+            <Form>FormCreaConvenios</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Administracion\UnitPrivilegios.pas">
+            <Form>FrmPrivilegios</Form>
+        </DCCReference>
+        <DCCReference Include="ActLoteCompras.pas">
+            <Form>ActualizacionCompras</Form>
+        </DCCReference>
+        <DCCReference Include="FrmCopiaProducto.pas">
+            <Form>FCopiaProductos</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Comunes\CapturaBasica2.pas">
+            <Form>CapturaB2</Form>
+        </DCCReference>
+        <DCCReference Include="..\Admisiones\ModuloAdmision.pas">
+            <Form>DatamoduloAdmision</Form>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Comunes\FActivarInactivar.pas">
+            <Form>FrmAI</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Comunes\Lista_Tablas2.pas">
+            <Form>FListadoTablasCol</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Comunes\FrameListaTabla2.pas">
+            <Form>ListaCol</Form>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Comunes\FrameMenuOpcion.pas">
+            <Form>FrameMnOp</Form>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Comunes\ImprimeFormato.pas">
+            <Form>ImpFormato</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Comunes\SACreaEmpresas.pas">
+            <Form>FrmIngresoEmpresas</Form>
+        </DCCReference>
+        <DCCReference Include="..\Admisiones\SAPAcientesShort.pas">
+            <Form>FrmIngresoPacientesShort</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Comunes\CapturaBasica.pas">
+            <Form>CapturaB</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Inventarios\frmproductos.pas">
+            <Form>Productos</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Comunes\CapturaBasica3.pas">
+            <Form>CapturaB3</Form>
+        </DCCReference>
+        <DCCReference Include="..\Facturacion\FrmAsignaHomo.pas">
+            <Form>frmAsignaHomologa</Form>
+        </DCCReference>
+        <DCCReference Include="..\Facturacion\FAsignaCapitulo.pas">
+            <Form>FrmAsignaCapitulo</Form>
+        </DCCReference>
+        <DCCReference Include="..\Admisiones\SAPAcientes2.pas">
+            <Form>FrmIngresoPacientes</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Comunes\Lista_Tablas3.pas">
+            <Form>FrmListaF</Form>
+        </DCCReference>
+        <DCCReference Include="FrmKardex.pas">
+            <Form>Kardex2</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Comunes\Librerias\FBMsgWait.pas">
+            <Form>PrateincoMsgWait</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Comunes\Librerias\Libreria_Prateinco.pas"/>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Comunes\Librerias\Libreria_PrateincoForm.pas"/>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Menu\SEIngreso.pas">
+            <Form>FIngreso</Form>
+        </DCCReference>
+        <DCCReference Include="..\Admisiones\ImportaPlanosPaci.pas">
+            <Form>ImportPlanoAdmi</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Comunes\WebCam.pas"/>
+        <DCCReference Include="..\..\..\ColossoLittle\Fuentes\Comunes\WebCamForm.pas">
+            <Form>WebCamF</Form>
+        </DCCReference>
+        <DCCReference Include="..\Control de Cargos\FImpSolicitud.pas">
+            <Form>ImpSolicitud</Form>
+        </DCCReference>
+        <BuildConfiguration Include="Debug">
+            <Key>Cfg_2</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Base">
+            <Key>Base</Key>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Release">
+            <Key>Cfg_1</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Delphi.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Delphi.Personality>
+                <Source>
+                    <Source Name="MainSource">Inventarios.dpr</Source>
+                </Source>
+                <VersionInfo>
+                    <VersionInfo Name="IncludeVerInfo">False</VersionInfo>
+                    <VersionInfo Name="AutoIncBuild">False</VersionInfo>
+                    <VersionInfo Name="MajorVer">1</VersionInfo>
+                    <VersionInfo Name="MinorVer">0</VersionInfo>
+                    <VersionInfo Name="Release">0</VersionInfo>
+                    <VersionInfo Name="Build">0</VersionInfo>
+                    <VersionInfo Name="Debug">False</VersionInfo>
+                    <VersionInfo Name="PreRelease">False</VersionInfo>
+                    <VersionInfo Name="Special">False</VersionInfo>
+                    <VersionInfo Name="Private">False</VersionInfo>
+                    <VersionInfo Name="DLL">False</VersionInfo>
+                    <VersionInfo Name="Locale">9226</VersionInfo>
+                    <VersionInfo Name="CodePage">1252</VersionInfo>
+                </VersionInfo>
+                <VersionInfoKeys>
+                    <VersionInfoKeys Name="CompanyName"/>
+                    <VersionInfoKeys Name="FileDescription"/>
+                    <VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+                    <VersionInfoKeys Name="InternalName"/>
+                    <VersionInfoKeys Name="LegalCopyright"/>
+                    <VersionInfoKeys Name="LegalTrademarks"/>
+                    <VersionInfoKeys Name="OriginalFilename"/>
+                    <VersionInfoKeys Name="ProductName"/>
+                    <VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+                    <VersionInfoKeys Name="Comments"/>
+                    <VersionInfoKeys Name="CFBundleName"/>
+                    <VersionInfoKeys Name="CFBundleDisplayName"/>
+                    <VersionInfoKeys Name="UIDeviceFamily"/>
+                    <VersionInfoKeys Name="CFBundleIdentifier"/>
+                    <VersionInfoKeys Name="CFBundleVersion"/>
+                    <VersionInfoKeys Name="CFBundlePackageType"/>
+                    <VersionInfoKeys Name="CFBundleSignature"/>
+                    <VersionInfoKeys Name="CFBundleAllowMixedLocalizations"/>
+                    <VersionInfoKeys Name="UISupportedInterfaceOrientations"/>
+                    <VersionInfoKeys Name="CFBundleExecutable"/>
+                    <VersionInfoKeys Name="CFBundleResourceSpecification"/>
+                    <VersionInfoKeys Name="LSRequiresIPhoneOS"/>
+                    <VersionInfoKeys Name="CFBundleInfoDictionaryVersion"/>
+                    <VersionInfoKeys Name="CFBundleDevelopmentRegion"/>
+                </VersionInfoKeys>
+                <Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dcloffice2k180.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclofficexp180.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\QR506DesignXE4W64.bpl">QuickReport 5.06 Components Win64/Win32</Excluded_Packages>
+                </Excluded_Packages>
+            </Delphi.Personality>
+            <Platforms>
+                <Platform value="Win32">True</Platform>
+                <Platform value="Win64">False</Platform>
+            </Platforms>
+        </BorlandProject>
+        <ProjectFileVersion>12</ProjectFileVersion>
+    </ProjectExtensions>
+    <Import Project="$(BDS)\Bin\CodeGear.Delphi.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')"/>
+    <Import Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj" Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj')"/>
+</Project>

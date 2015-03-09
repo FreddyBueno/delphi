@@ -1,0 +1,144 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{3D63F5CE-FC63-4407-9CF5-7735164D5063}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Consultorios\Consultorios.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Citasmedicas\CitasMedicas.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Contabilidad\Contabilidad.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Control de Caja\Caja.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Control de Compras\Compras.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Rips\ControlRips.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Sistema Medico\SistemaMedico.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Inventarios\Inventarios.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\ColossoLittle\Fuentes\Administracion\Administracion.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\ColossoLittle\Fuentes\Menu\SOFTSIG.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Consultorios">
+        <MSBuild Projects="Consultorios\Consultorios.dproj"/>
+    </Target>
+    <Target Name="Consultorios:Clean">
+        <MSBuild Projects="Consultorios\Consultorios.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Consultorios:Make">
+        <MSBuild Projects="Consultorios\Consultorios.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CitasMedicas">
+        <MSBuild Projects="Citasmedicas\CitasMedicas.dproj"/>
+    </Target>
+    <Target Name="CitasMedicas:Clean">
+        <MSBuild Projects="Citasmedicas\CitasMedicas.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CitasMedicas:Make">
+        <MSBuild Projects="Citasmedicas\CitasMedicas.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Contabilidad">
+        <MSBuild Projects="Contabilidad\Contabilidad.dproj"/>
+    </Target>
+    <Target Name="Contabilidad:Clean">
+        <MSBuild Projects="Contabilidad\Contabilidad.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Contabilidad:Make">
+        <MSBuild Projects="Contabilidad\Contabilidad.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Caja">
+        <MSBuild Projects="Control de Caja\Caja.dproj"/>
+    </Target>
+    <Target Name="Caja:Clean">
+        <MSBuild Projects="Control de Caja\Caja.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Caja:Make">
+        <MSBuild Projects="Control de Caja\Caja.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Compras">
+        <MSBuild Projects="Control de Compras\Compras.dproj"/>
+    </Target>
+    <Target Name="Compras:Clean">
+        <MSBuild Projects="Control de Compras\Compras.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Compras:Make">
+        <MSBuild Projects="Control de Compras\Compras.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ControlRips">
+        <MSBuild Projects="Rips\ControlRips.dproj"/>
+    </Target>
+    <Target Name="ControlRips:Clean">
+        <MSBuild Projects="Rips\ControlRips.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ControlRips:Make">
+        <MSBuild Projects="Rips\ControlRips.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SistemaMedico">
+        <MSBuild Projects="Sistema Medico\SistemaMedico.dproj"/>
+    </Target>
+    <Target Name="SistemaMedico:Clean">
+        <MSBuild Projects="Sistema Medico\SistemaMedico.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SistemaMedico:Make">
+        <MSBuild Projects="Sistema Medico\SistemaMedico.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Inventarios">
+        <MSBuild Projects="Inventarios\Inventarios.dproj"/>
+    </Target>
+    <Target Name="Inventarios:Clean">
+        <MSBuild Projects="Inventarios\Inventarios.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Inventarios:Make">
+        <MSBuild Projects="Inventarios\Inventarios.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Administracion">
+        <MSBuild Projects="..\..\ColossoLittle\Fuentes\Administracion\Administracion.dproj"/>
+    </Target>
+    <Target Name="Administracion:Clean">
+        <MSBuild Projects="..\..\ColossoLittle\Fuentes\Administracion\Administracion.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Administracion:Make">
+        <MSBuild Projects="..\..\ColossoLittle\Fuentes\Administracion\Administracion.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SOFTSIG">
+        <MSBuild Projects="..\..\ColossoLittle\Fuentes\Menu\SOFTSIG.dproj"/>
+    </Target>
+    <Target Name="SOFTSIG:Clean">
+        <MSBuild Projects="..\..\ColossoLittle\Fuentes\Menu\SOFTSIG.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SOFTSIG:Make">
+        <MSBuild Projects="..\..\ColossoLittle\Fuentes\Menu\SOFTSIG.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Consultorios;CitasMedicas;Contabilidad;Caja;Compras;ControlRips;SistemaMedico;Inventarios;Administracion;SOFTSIG"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Consultorios:Clean;CitasMedicas:Clean;Contabilidad:Clean;Caja:Clean;Compras:Clean;ControlRips:Clean;SistemaMedico:Clean;Inventarios:Clean;Administracion:Clean;SOFTSIG:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Consultorios:Make;CitasMedicas:Make;Contabilidad:Make;Caja:Make;Compras:Make;ControlRips:Make;SistemaMedico:Make;Inventarios:Make;Administracion:Make;SOFTSIG:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

@@ -1,0 +1,668 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"img",
+				"img_original"
+			],
+			[
+				"an",
+				"ancho_img"
+			],
+			[
+				"ej",
+				"ejecutar_consulta"
+			],
+			[
+				"ut",
+				"utf8_encode"
+			],
+			[
+				"im",
+				"imagen_generica"
+			],
+			[
+				"em",
+				"email"
+			],
+			[
+				"he",
+				"header	<header>"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"o",
+				"opacity"
+			],
+			[
+				"c",
+				"cursor"
+			],
+			[
+				"t",
+				"type"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"pa",
+				"password"
+			],
+			[
+				"incl",
+				"include"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"h2",
+				"hw_Array2Objrec"
+			],
+			[
+				"con",
+				"conexion"
+			],
+			[
+				"my",
+				"mysql_close"
+			],
+			[
+				"archi",
+				"archivo_fls"
+			],
+			[
+				"val",
+				"validarDatosGET"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"no",
+				"nombre_txt"
+			],
+			[
+				"if",
+				"if	if"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"m",
+				"max-height"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"ht",
+				"height"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"font",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/xampp/htdocs/raquel/index.html",
+			"settings":
+			{
+				"buffer_size": 11246,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/gapps/index.html",
+			"settings":
+			{
+				"buffer_size": 14101,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/Choose Browser.sublime-build",
+	"command_palette":
+	{
+		"height": 381.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: c",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Emmet: Merge Lines"
+			]
+		],
+		"width": 456.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Programas/GemaIPSAnt/Fuentes GEMAIPS/Consultorios/UAdmisiones2.pas",
+		"/C/Programas/GemaIPSAnt/Fuentes GEMAIPS/Admisiones/FListadoPacientes.pas",
+		"/C/Programas/GemaIPSAnt/Fuentes GEMAIPS/Admisiones/UAdmisiones.pas",
+		"/C/Programas/GemaIPSAnt/Fuentes GEMAIPS/Sistema Medico/VerificaHuella.pas",
+		"/C/Programas/GemaIPSAnt/Fuentes GEMAIPS/Admisiones/UAdmisiones.dfm",
+		"/C/backup/sqlbd/scripteduc.sql",
+		"/C/xampp/htdocs/raquel/index.html",
+		"/C/Programas/GemaIPSAnt/Fuentes GEMAIPS/Consultorios/__history/UAdmisiones2.pas.~10~",
+		"/C/Programas/GemaIPSAnt/Fuentes GEMAIPS/Consultorios/__history/UAdmisiones2.pas.~11~",
+		"/C/Programas/GemaIPSAnt/Fuentes GEMAIPS/Consultorios/__history/UAdmisiones2.pas.~12~",
+		"/C/Programas/GemaIPSAnt/Fuentes GEMAIPS/Consultorios/__history/UAdmisiones2.pas.~13~",
+		"/C/Programas/GemaIPSAnt/Fuentes GEMAIPS/Consultorios/__history/UAdmisiones2.pas.~14~",
+		"/C/Programas/GemaIPSAnt/Fuentes GEMAIPS/Consultorios/__history/UAdmisiones2.pas.~5~",
+		"/C/Programas/GemaIPSAnt/Fuentes GEMAIPS/Consultorios/__history/UAdmisiones2.pas.~6~",
+		"/C/Programas/GemaIPSAnt/Fuentes GEMAIPS/Consultorios/__history/UAdmisiones2.pas.~8~",
+		"/C/Programas/GemaIPSAnt/Fuentes GEMAIPS/Consultorios/__history/UAdmisiones2.pas.~9~",
+		"/C/Programas/GemaIPSAnt/Fuentes GEMAIPS/Consultorios/__history/UAdmisiones2.pas.~7~",
+		"/C/inetpub/wwwroot/fsadmin/Localizarentidad.asp",
+		"/C/inetpub/wwwroot/fsadmin/activarsede.asp",
+		"/C/inetpub/wwwroot/fsadmin/pagos.asp",
+		"/C/inetpub/wwwroot/fsadmin/cobroporservicio.asp",
+		"/C/inetpub/wwwroot/fsadmin/Facturas.asp",
+		"/C/inetpub/wwwroot/fsadmin/menu.asp",
+		"/C/inetpub/wwwroot/fsadmin/includes/conexion.asp",
+		"/C/inetpub/wwwroot/fsadmin/inscritos.asp",
+		"/C/inetpub/wwwroot/fsadmin/BuscarFactura.asp",
+		"/C/inetpub/wwwroot/fsadmin/insc_exp.asp",
+		"/C/inetpub/wwwroot/fsadmin/entidades.asp",
+		"/C/inetpub/wwwroot/fsadmin/individuos.asp",
+		"/C/inetpub/wwwroot/fsadmin/dirinsc.asp",
+		"/C/inetpub/wwwroot/fsadmin/ver_notas.asp",
+		"/C/inetpub/wwwroot/fsadmin/codigo.asp",
+		"/C/inetpub/wwwroot/fsadmin/selinsccomo.asp",
+		"/C/inetpub/wwwroot/fsadmin/Templates/pagos.html",
+		"/C/inetpub/wwwroot/fsadmin/Templates/inscritos.html",
+		"/C/inetpub/wwwroot/fsadmin/Templates/table_view.html",
+		"/C/Programas/GemaIPSAnt/softips.ini",
+		"/C/Programas/GemaIPSAntYYY/softips.ini",
+		"/C/inetpub/wwwroot/fsadmin/Templates/inscritosnew.html",
+		"/C/inetpub/wwwroot/fsadmin/formulario.css",
+		"/C/inetpub/wwwroot/fsadmin/new.css",
+		"/C/xampp/htdocs/SitioWeb/css/estilos.css",
+		"/C/inetpub/wwwroot/fsadmin/default.asp",
+		"/C/inetpub/wwwroot/fsadmin/Templates/entidades.html",
+		"/C/inetpub/wwwroot/fsadmin/eventos.asp",
+		"/C/inetpub/wwwroot/fsadmin/Templates/eventos.html",
+		"/C/inetpub/wwwroot/fsadmin/Templates/sectores.html",
+		"/C/inetpub/wwwroot/fsadmin/includes/TableUpdater.asp",
+		"/C/inetpub/wwwroot/fsadmin/sectores.asp",
+		"/C/inetpub/wwwroot/fsadmin/Templates/buscarfactura.html",
+		"/C/inetpub/wwwroot/fsadmin/Templates/buscarentidad.html",
+		"/C/inetpub/wwwroot/fsadmin/usuarios.asp",
+		"/C/inetpub/wwwroot/fsadmin/paramf.asp",
+		"/C/inetpub/wwwroot/fsadmin/includes/ShowTableList.asp",
+		"/C/inetpub/wwwroot/fsadmin/sedeseventos.asp",
+		"/C/inetpub/wwwroot/fsadmin/plansede.asp",
+		"/C/inetpub/wwwroot/fsadmin/at-interface.asp",
+		"/C/inetpub/wwwroot/fsadmin/users_view.asp",
+		"/C/inetpub/wwwroot/fsadmin/Templates/usuarios.html",
+		"/C/inetpub/wwwroot/fsadmin/sedes.asp",
+		"/C/inetpub/wwwroot/fsadmin/noautorizado.asp",
+		"/C/inetpub/wwwroot/fsadmin/Templates/paramf.html",
+		"/C/inetpub/wwwroot/fsadmin/includes/io.inc",
+		"/C/inetpub/wwwroot/fsadmin/Templates/xp.html",
+		"/C/inetpub/wwwroot/fsadmin/inscritos_.asp",
+		"/C/inetpub/wwwroot/fsadmin/inscritosviejo.asp",
+		"/C/inetpub/wwwroot/fsadmin/inscritos__.asp",
+		"/C/inetpub/wwwroot/fsadmin/formaspago.asp",
+		"/C/inetpub/wwwroot/fsadmin/selentidad.asp",
+		"/C/inetpub/wwwroot/fsadmin/niveles.asp",
+		"/C/inetpub/wwwroot/fsadmin/Templates/Factura.html",
+		"/C/inetpub/wwwroot/fsadmin/includes/TableUpdaterViejo.asp",
+		"/C/inetpub/wwwroot/fsadmin/BuscaInscrito.asp",
+		"/C/inetpub/wwwroot/fsadmin/text.css",
+		"/C/inetpub/wwwroot/fsadmin/Templates/sedeseventos.html",
+		"/C/xampp/htdocs/curso-php/mis-contactos/php/conexion.php",
+		"/C/xampp/htdocs/eqtotal3/css/style.css",
+		"/C/xampp/htdocs/eqtotal3/php/cargarcitas.php",
+		"/C/xampp/htdocs/eqtotal3/citas.php",
+		"/C/Desarrollo/AdminColpsic4/AdminColpsic6.dpr",
+		"/C/xampp/htdocs/eqtotal3/php/cargarcitas1.php",
+		"/C/xampp/htdocs/curso-php/mis-contactos/index.php",
+		"/C/xampp/htdocs/eqtotal3/index-1.html",
+		"/C/xampp/htdocs/eqtotal3/index-2.html",
+		"/C/xampp/htdocs/eqtotal3/index-3.html",
+		"/C/Desarrollo/2013-06-28T21_12_23.6725213Z.txt",
+		"/C/Users/Frodriguez/Downloads/phpgrid-v1.4.6/inc/jqgrid_dist.php",
+		"/C/xampp/htdocs/eqtotal3/index-4.html",
+		"/C/xampp/htdocs/eqtotal3/index-5.html",
+		"/C/xampp/htdocs/eqtotal3/testlocal.php",
+		"/C/xampp/php/php.ini",
+		"/C/xampp/htdocs/eqtotal3/css/test.php",
+		"/C/xampp/htdocs/eqtotal3/bat/MailHandler.php",
+		"/C/xampp/htdocs/eqtotal3/css/captcha.css",
+		"/C/xampp/htdocs/eqtotal3/js/forms.js",
+		"/C/xampp/htdocs/curso-php/02validacionDatos/validar-datos.php",
+		"/C/xampp/htdocs/curso-php/02validacionDatos/formulario.php",
+		"/C/xampp/htdocs/SitioWeb/contacto.html",
+		"/C/xampp/htdocs/curso-php/05sesiones/index.php",
+		"/C/xampp/htdocs/curso-php/mis-contactos/php/alta-contacto.php",
+		"/C/Users/Frodriguez/Documents/scriptFDGEX.sql",
+		"/C/xampp/htdocs/eqtotal3/index.html",
+		"/C/xampp/htdocs/eqtotal3/contacto.asp",
+		"/C/xampp/htdocs/theloft/kataklimt/kataklimt/index.html",
+		"/C/xampp/htdocs/eqtotal3/css/bootstrap-responsive.css",
+		"/C/xampp/htdocs/eqtotal3/css/bootstrap.css",
+		"/C/xampp/htdocs/eqtotal3/css/camera.css",
+		"/C/xampp/htdocs/eqtotal3/css/kwicks-slider.css",
+		"/C/xampp/htdocs/eqtotal3/css/prettify.css",
+		"/C/xampp/htdocs/eqtotal3/css/touchTouch.css",
+		"/C/xampp/htdocs/eqtotal3/404.html",
+		"/C/xampp/htdocs/theloft/index.html",
+		"/C/xampp/htdocs/eqtotal3/alimentos1.html",
+		"/C/xampp/htdocs/imedico/css/estilos.css",
+		"/C/xampp/htdocs/imedico/index.html",
+		"/C/xampp/htdocs/eqtotal3/registro.html",
+		"/C/xampp/htdocs/eqtotal3/index-2x.html",
+		"/C/xampp/htdocs/curso-php/mis-contactos/php/eliminar-contacto.php",
+		"/C/xampp/htdocs/curso-php/mis-contactos/php/baja-contacto.php",
+		"/C/xampp/htdocs/curso-php/mis-contactos/css/mis-contactos.css",
+		"/C/Users/Frodriguez/Documents/Mis sitios Web/eqtotal/sitemap.xml",
+		"/C/Program Files (x86)/DevExpress VCL/ExpressQuantumGrid/cxGridPopupMenuConstsES.pas",
+		"/C/Program Files (x86)/DevExpress VCL/ExpressQuantumGrid/cxGridStrsES.pas",
+		"/C/xampp/htdocs/curso-php/mis-contactos/js/mis-contactos.js",
+		"/C/xampp/htdocs/curso-php/mis-contactos/php/funciones.php",
+		"/C/xampp/htdocs/curso-php/mis-contactos/php/agregar-contacto.php",
+		"/C/xampp/htdocs/curso-php/mis-contactos/php/select-pais.php",
+		"/C/xampp/htdocs/curso-php/mis-contactos/php/mensajes.php"
+	],
+	"find":
+	{
+		"height": 55.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"*.dfm",
+			"*.pas",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"about",
+			"kata",
+			"rtrim(SEGUNDO_NOMBRE)",
+			"rtrim(P.SEGUNDO_NOMBRE)",
+			"rtrim(P.SEGUNDO_APELLIDO)",
+			"rtrim(P.SEGUNDO_NOMBRE)",
+			"rtrim(SEGUNDO_NOMBRE)",
+			"rtrim(SEGUNDO_APELLIDO)",
+			"SELECT cast(GetDate() as Date) as FechaPago,ei.*,",
+			"NIT",
+			"titulo",
+			"textarea",
+			"SedesEvento_ID",
+			"EntregarEn",
+			"return",
+			"window",
+			"session(\"SQL\")",
+			"inscritos.html",
+			"response.redirect (\"notauthorized.asp\")",
+			"session(\"SecurityLevel\")",
+			"SecurityLevel",
+			"RequestTemplate",
+			"anula",
+			"salir",
+			"Call UpdateRecordFromForm(",
+			"fillselect",
+			"elabora",
+			"vConceptos",
+			"fillselect",
+			"order by",
+			"gener",
+			"carg",
+			"jaiban",
+			"jaib",
+			"edit2",
+			"clea",
+			"sWhere",
+			"redText",
+			"$respuesta",
+			"$fila",
+			"$respuesta",
+			"$consulta",
+			"fila",
+			"pager2",
+			"list2",
+			"forms.js",
+			"MailHandler.php",
+			"bat",
+			"message",
+			"phone",
+			"#servicios-",
+			"midocco",
+			"index1",
+			"midocco",
+			"tmp/",
+			"page3-",
+			"class=\"img-inline\"",
+			"12p",
+			"nav",
+			"url",
+			"ur",
+			"e85356",
+			"but",
+			"page1",
+			"nun",
+			"alt+",
+			"GET",
+			"get",
+			"icono",
+			",",
+			",,",
+			",,,,",
+			",,,,,,,,,",
+			" ",
+			",,,,,,,,,,,,,,,, ",
+			" ",
+			",",
+			",,",
+			",,,,",
+			",,,,,,,,,,",
+			",,,,, ",
+			" ",
+			",",
+			",,",
+			",,,,",
+			",,,,,",
+			" ",
+			"fdcampos ",
+			"fdcampos",
+			" ,",
+			",",
+			",,,",
+			",,",
+			" ",
+			",",
+			",,",
+			" ",
+			",",
+			",,",
+			" ",
+			"index.html",
+			"#F60;",
+			"browse",
+			"chooser",
+			"32x32",
+			"64x64",
+			"			-webkit-transform: rotate(45deg);\n			-webkit-transform-origin:100% 100% ;\n",
+			"));\n",
+			"				<input type=\"text\" id=\"name2\">\n				<input type=\"text\" id=\"name3\">",
+			"	<article class=\"notas\"></article>",
+			">\n",
+			"\">\n"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"rtrim(isnull(SEGUNDO_NOMBRE,''''))",
+			"rtrim(isnull(P.SEGUNDO_NOMBRE,''''))",
+			"rtrim(isnull(P.SEGUNDO_APELLIDO,''''))",
+			"rtrim(isnull(P.SEGUNDO_NOMBRE,''''))",
+			"rtrim(isnull(SEGUNDO_NOMBRE,''''))",
+			"rtrim(isnull(SEGUNDO_APELLIDO,''''))",
+			"response.redirect (\"noautorizado.asp\")",
+			"session(\"NivelAcceso\")",
+			"NivelAcceso",
+			"UserTemplate",
+			"nKey = UpdateRecordFromForm(",
+			"sSQL",
+			"results",
+			"$response",
+			"$row",
+			"$response",
+			"$sql",
+			"row",
+			"pager-citas",
+			"mis-citas",
+			"#alimentos-",
+			"index-1",
+			"imedico",
+			"img/gallery/",
+			"img/gallery",
+			"gallery/",
+			"",
+			"d2114b",
+			"POST",
+			"post",
+			", FDSubcampos.",
+			",",
+			", CONTTerce.",
+			",",
+			", SApacientes.",
+			",",
+			"FDcampos",
+			"FDcampos ",
+			", ",
+			" ,fdcampos.",
+			",",
+			",FDSecciones.",
+			",",
+			",fdinformacion.",
+			",",
+			"inicio.html",
+			"#D86D0C;",
+			"48x48",
+			"32x32"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/xampp/htdocs/raquel/index.html",
+					"settings":
+					{
+						"buffer_size": 11246,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4092,
+								4092
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 982.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/xampp/htdocs/gapps/index.html",
+					"settings":
+					{
+						"buffer_size": 14101,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								441,
+								441
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/xampp/htdocs/midocco/MiDoc.co.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 266.0,
+	"status_bar_visible": true
+}
